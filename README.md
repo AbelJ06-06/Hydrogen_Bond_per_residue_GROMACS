@@ -15,7 +15,8 @@ Hbond_residues.ipynb then writes a text file with the list of residues, insert t
 ### hbond.sh
 hbond.sh calculates the H-bond interaction between the LIG and the residues mentioned in Hbond_residues.ipynb to create individual xvg files 
 
-###
+### Hbond_consolidated.ipynb
+Hbond_consolidated converts the individual GROMACS hbond outputs into a single excel sheet
 
-
-
+### Hbond_plotting.ipynb 
+coverts the data stored in the excel sheet into a graph that can be visualized
