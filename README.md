@@ -11,7 +11,9 @@ select the unique atoms present in [ hbonds_Protein-UNK ] and add them to the li
 
 ### Hbond_residues.ipynb
 Hbond_residues.ipynb then writes a text file with the list of residues obtained from the final MD.gro file, insert the list into the hbond.sh script and also create an new index file sperating the the atoms in the gro file residue-vise
+
 gmx make_ndx -f md_200.tpr -o index_res.ndx
+
 splitres
 
 
